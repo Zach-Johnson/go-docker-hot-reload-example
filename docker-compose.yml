@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+    api:
+        image: api:latest
+        ports:
+            - 5000:5000
+        volumes:
+            - ./:/go/src/github.com/Zach-Johnson/go-docker-hot-reload-example
